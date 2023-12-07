@@ -3,7 +3,7 @@ import React, { useState, createContext, useContext } from "react";
 const AppContext = createContext(null);
 
 export const Parent = () => {
-  const [userName, setUserName] = useState("PedroTech");
+  const [userName, setUserName] = useState("MimiTech");
 
   return (
     <AppContext.Provider value={{ userName, setUserName }}>
